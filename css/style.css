@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+body{
+    font-family: 'montserratregular','Arial',sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+main
+{
+    flex-grow: 1;   
+    display: flex;
+    flex-direction: column;
+}
+.container 
+{
+    max-width: 1100px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.section{
+    margin: 0;
+}
+.p--gray{
+    color: #626161;
+}
+/*=============SECTION-HEADER====================================*/
+.header{
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+}
+.header-menu {
+    display: flex;
+    align-items: flex-start; 
+    justify-content: space-between; 
+    max-width: 1440px;
+    
+}
+.button {
+    width: 200px;
+    height: 50px;
+    background-color: #3456fe;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+    color: white;
+    margin-left: 164px;
+    box-shadow: 62px 53px 100px 14px rgba(0, 0, 0, 0.26);
+}
+.header-menu-info{
+    margin-bottom: 155px;
+    margin-right: 395px;
+    
+}
+.header-menu-h{
+    margin-left: 164px;
+    font-size: 35px;
+}
+.header-menu-p{
+    margin-bottom: 35px;
+    margin-left: 164px;
+    font-size: 18px;
+}
+
+.header-menu-info-img{
+     margin-left: auto; 
+     position: relative;
+  display: inline-block; 
+}
+.header-text-column
+{
+     display: flex;
+    flex-direction: column;
+    gap: 20px; 
+    max-width: 60%;
+}
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+}
+.image-wrapper img {
+  display: block;
+  width: 100%; 
+}
+.labels {
+  position: absolute;
+  top: 10px; 
+  left: 0;
+  right: 0;
+  
+  display: flex;
+  justify-content: space-between; 
+  margin: 36px 47px;
+  font-size: 15px;
+}
+
+.label {
+  color: #000000;
+  text-decoration: none;
+  
+  border-radius: 4px; 
+}
+/*============================SECTION MAIN=========================================*/
+
+/*===========================SECTION MAIN BUILDERPLANS===========================*/
+.main{
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+
+}
+.builderplans-main
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: stretch; 
+    max-width: 1440px;
+}
+
+.builderplans-container
+{
+   
+    
+    background-color: #f8f8fa;
+}
+/*===========================SECTION MAIN HOMEFORFAMILIES===========================*/
+.homeforfamily-main{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    background-color: #060928;
+    color: white;
+}
+
+/*=================================SECTION ESTATE EMPIRE===================================*/
+.estate--empire{
+    width: 1440px;
+}
+.estate--empire--h{
+    font-size: 38px;
+    margin-left: 164px;
+    margin-top: 34px;
+}
+.estate--empire--h2{
+    font-size: 24px;
+    margin-left: 164px;
+    margin-top: 154px;
+}
+.estate--empire-p{
+    margin-left: 164px;
+    font-size: 16px;
+    margin-top: 40px;
+}
+.button--readmore {
+    width: 200px;
+    height: 50px;
+    background-color: #3456fe;
+    border: none;
+    padding: 10px 20px; 
+    font-size: 16px;
+    box-sizing: border-box; 
+    color: white;
+    box-shadow: 62px 53px 100px 14px rgba(0, 0, 0, 0.26);
+    margin-left: 164px;
+    margin-top: 26px;
+    margin-bottom: 136px;
+}
+.content-wrapper {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  gap: 20px; 
+}
+
+
+.text-content {
+  max-width: 60%; 
+}
+
+
+.images {
+  display: flex;
+  flex-direction: wrap; 
+  gap: 10px; 
+}
+
+.images img {
+  max-width: 65%; 
+  height: 456px;
+  width: auto;
+  display: block;
+}
+.images--kitchenlivingroom{
+    margin-top: 184px;
+    
+}
+.images--kitchen{
+    margin-top: 184px;
+    margin-left: 56px;
+    
+}
+/*=================================SECTION--BUILTHOUSES=====================================*/
+
+.builthouses{
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center; 
+    padding: 20px; 
+}
+.builthouses--h {
+  margin-bottom: 20px; 
+}
+.images--builthouses {
+  display: flex;
+  flex-direction: row; 
+  align-items: center;
+  gap: 15px;
+}
+.builthouses--h2 {
+  margin-bottom: 40px; 
+}
+.builthouses--p {
+  margin-bottom: 40px; 
+}
+.images--builthouses img {
+  max-width: 100%; 
+  height: auto;
+}
+.builthouses--img1{
+    margin-right: 45px;
+}
+.builthouses--img2{
+    
+}
+.builthouses--img3{
+    margin-left: 45px;
+}
+/*=================================SECTION-FOOTER=========================================== */
+
