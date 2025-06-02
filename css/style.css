@@ -235,10 +235,28 @@ main
   width: 211px;
   height: 248px;
 }
-
-
-
-
+.two-additional-images3{
+  top: -50px;
+  position: relative;
+  right: -10px;
+}
+.button--readmore--families{
+  position:relative;
+  top:-546px;
+}
+.h2--readmore{
+  position: relative;
+  top:-916px;
+  right: -770px;
+}
+.p--readmore{
+  position: relative;
+  top:-866px;
+  right: -770px;
+}
+.main-image{
+  border-radius: 25px;
+}
 
 /*=================================SECTION ESTATE EMPIRE===================================*/
 .estate--empire{
@@ -345,3 +363,57 @@ main
 }
 /*=================================SECTION-FOOTER=========================================== */
 
+.footer-wrapper {
+  width: 1440px;
+  margin: 0 auto; 
+}
+
+.footer-content {
+  
+  position: relative; 
+  display: flex;
+  justify-content: center; 
+  
+  
+}
+
+.center-text {
+  width: 740px;
+  height: 622px;
+  position: absolute;
+  top: 700px; 
+  right: -370px;
+  
+  transform: translateX(-50%);
+  
+  background-color: #060928;
+  
+  color: #FFFFFF;
+  
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  
+  z-index:10;
+}
+.center-text-h2
+{
+  margin-left: 81px;
+  margin-top: 126px;
+  margin-bottom: 20px;
+  margin-right: 415px;
+}
+.center-text-p
+{
+  margin-left: 81px;
+  margin-bottom: 48px;
+  margin-right: 164px;
+}
+.description-section {
+  height: 1010px;
+  background-color: #3456FE;
+  margin-top:auto; 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  gap: 20px;
+}
