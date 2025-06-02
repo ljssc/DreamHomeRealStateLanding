@@ -10,7 +10,8 @@ html, body {
     min-height: 100%;
 }
 body{
-    font-family: 'montserratregular','Arial',sans-serif;
+
+    
     display: flex;
     flex-direction: column;
 }
@@ -22,9 +23,11 @@ main
 }
 .container 
 {
+  width: 100%;
     max-width: 1440px;
     margin: 0 auto;
     position: relative;
+
     
 }
 .section{
@@ -363,9 +366,31 @@ main
 }
 /*=================================SECTION-FOOTER=========================================== */
 
+
+
+
 .footer-wrapper {
-  width: 1440px;
+  width: 100%;
+  max-width: 1440px;
   margin: 0 auto; 
+}
+.photo-section {
+  margin-bottom: 0; 
+  padding: 0;
+}
+.description-section {
+  margin-top: 0; 
+  padding: 0;
+  gap: 0;
+}
+.photo-section,
+.description-section {
+  border: none;
+  background: transparent; 
+}
+.photo-section,
+.description-section {
+  margin: 0;
 }
 
 .footer-content {
@@ -387,6 +412,8 @@ main
   color: #FFFFFF;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index:10;
+  margin-bottom: -1px;
+  
 }
 .center-text-h2
 {
@@ -432,25 +459,215 @@ main
   bottom: -2px;
   background-color: #3456FE;
   color: #FFFFFF;
-  font-family: "Montserrat";
+  
   border: none;
   font-size: 20px;
   margin-bottom: 208px;
 }
 .footer--website{
+  margin-top: 0;
   margin-top: 517px;
   margin-right: 205px;
   color: #FFFFFF;
   line-height: 2;
 }
 .footer--international{
+  margin-top: 0;
   margin-top: 517px;
   margin-right: 80px;
   color: #FFFFFF;
   line-height: 2;
 }
 .footer--partner{
+  margin-top: 0;
   margin-top: 517px;
   color: #FFFFFF;
   line-height: 2;
 }
+/*==============================burger==========================*/
+
+.burger {
+ width: 30px;
+  height: auto; 
+  display: flex;
+  flex-direction: column;
+  opacity: 0;
+  align-items: center; 
+  cursor: pointer;
+  gap: 5px; 
+}
+
+.burger__line {
+  height: 6px; 
+  background-color: black; 
+  width: 100%; 
+  border-radius: 2px; 
+  
+}
+.menu-links {
+  display: flex;
+  flex-direction: row;
+  gap: 36px;
+}
+
+.menu-links.active {
+  display: flex;
+}
+
+
+/*==========================================================MEDIA URL==================================*/
+
+@media (min-width:769px) and (max-width:1024px) {
+  .header-menu {
+    flex-direction: column; 
+    align-items:center; 
+ }
+
+ 
+
+ .menu-links {
+   display:flex; 
+ }
+
+ .burger {
+   display:none; 
+ }
+}
+@media (max-width: 768px) {
+  .menu-links {
+    
+    top: 100%; 
+    left: 0;
+    width: 80%; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
+    z-index: 1000; 
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 8px;
+    display: none;
+  }
+
+  .burger {
+  
+  opacity: 1;
+
+} 
+
+  
+  .menu-links.active {
+    display: flex;
+  }
+  .burger__line {
+  width: 100%;
+  height: 5px;
+  background-color: black;
+}
+
+.card {
+     width :100% ;
+     margin-bottom :20 px ; 
+}
+
+.estate--empire--h,
+.estate--empire--h2,
+.estate--empire-p,
+.button--readmore,
+.content-wrapper,
+.text-content,
+.images,
+.images img,
+.homeforfamily-main-h1,
+.additional-images,
+.h2--readmore,
+.p--readmore,
+.builthouses,
+.builthouses--h,
+.builthouses--h2,
+.builthouses--p,
+.images--builthouses img {
+     font-size :14px ; 
+     padding :10px ; 
+     margin :10px ; 
+}
+
+.content-wrapper {
+     flex-direction :column ;
+     align-items:center ;
+     text-align:center ;
+}
+
+
+
+.images img {
+     max-width :90% ; 
+     height:auto ;
+}
+
+
+
+.additional-images {
+     position:absolute ;
+     top:auto ;
+     right:auto ;
+     margin-top :20px; 
+}
+
+
+
+.h2--readmore,
+.p--readmore,
+.button--readmore--families {
+     position :static ; 
+     margin-top :20 px ; 
+ }
+
+.homeforfamily-main-h1{
+ font-size :28-32 px ; 
+}
+
+}
+@media (min-width:1025px) {
+   .menu-links {
+     display:flex; 
+   }
+
+   .burger {
+     display:none; 
+   }
+}
+@media(max-width:1024px){
+
+.estate--empire{
+ width:auto ;
+}
+
+.estate--empire--h,
+.estate--empire--h2,
+.estate--empire-p{
+ font-size :24px ;
+}
+
+.content-wrapper{
+ flex-direction :'column' ;
+ align-items:'center' ;
+}
+
+.images{
+ flex-direction :'column' ;
+ align-items:'center' ;
+}
+
+.images img{
+ max-width :'80%' ;
+}
+.homeforfamily-main-h1{
+ font-size :'32-36 px';
+}
+
+.additional-images{
+ position:'static';
+ padding:'10-20 px';
+}
+
+} 
