@@ -378,20 +378,9 @@ main
   margin-bottom: 0; 
   padding: 0;
 }
-.description-section {
-  margin-top: 0; 
-  padding: 0;
-  gap: 0;
-}
-.photo-section,
-.description-section {
-  border: none;
-  background: transparent; 
-}
-.photo-section,
-.description-section {
-  margin: 0;
-}
+
+
+
 
 .footer-content {
   
@@ -434,15 +423,18 @@ main
   margin-right: 164px;
 }
 .description-section {
-  height: 1010px;
+  min-height: 1010px;
   background-color: #3456FE;
   margin-top:auto; 
   display: flex;
   justify-content: center;
-  
+  margin-top: 0; 
+  padding: 0;
+  gap: 0;
   align-items: flex-start;
   gap: 20px;
 }
+
 .input--send{
   width: 346px;
   height: 48px;
