@@ -34,6 +34,11 @@ main
     color: #626161;
 }
 /*=============SECTION-HEADER====================================*/
+.property--img{
+  /* margin-left: 164px; */
+  margin-top: 38px;
+  margin-right: 15px;
+}
 .section-header {
   display: flex;
   justify-content: space-between;
@@ -43,7 +48,7 @@ main
 .section-header h2 {
   margin: 0;
   margin-left: 164px;
-    margin-top: 100px;
+    margin-top: 100px;  
     margin-bottom: 54px;
 }
 
@@ -205,10 +210,35 @@ main
 .homeforfamily-main{
     display: flex;
     flex-wrap: wrap;
-    max-width: 1440px;
+    width: 1440px;
+    height: 1094px;
     background-color: #060928;
     color: white;
+    position: relative;
+    overflow: hidden;
 }
+.homeforfamily-main-h1{
+  margin-top: 42px;
+  margin-left: 164px;
+  margin-bottom: 56px;
+  font-size: 38px;
+}
+ .additional-images {
+  position: absolute;
+  z-index: 2; 
+  top: 640px;
+  
+  right: 220px;
+  
+}
+.two-additional-images{
+  width: 211px;
+  height: 248px;
+}
+
+
+
+
 
 /*=================================SECTION ESTATE EMPIRE===================================*/
 .estate--empire{
