@@ -97,8 +97,12 @@ main {
   color: white;
   margin-left: 164px;
   box-shadow: 62px 53px 100px 14px rgba(0, 0, 0, 0.26);
+  transition: all 0.3s ease-in-out;
 }
-
+.button:hover,.button:focus{
+  background-color: white;
+  color: #3456fe;
+}
 .header-menu-info {
   margin-bottom: 155px;
   margin-right: 395px;
@@ -156,6 +160,12 @@ main {
   text-decoration: none;
 
   border-radius: 4px;
+}
+
+.label:hover,.label:focus{
+  
+  color: #000000;
+  background-color: white;
 }
 
 /*============================SECTION MAIN=========================================*/
@@ -269,7 +279,10 @@ main {
   position: relative;
   top: -546px;
 }
-
+.button--readmore--families,.button:focus{
+  background-color: white;
+  color: #3456fe;
+}
 .h2--readmore {
   position: relative;
   top: -916px;
@@ -323,7 +336,10 @@ main {
   margin-top: 26px;
   margin-bottom: 136px;
 }
-
+.button--readmore:hover,.button--readmore:focus{
+  background-color: white;
+  color: #3456fe;
+}
 .content-wrapper {
   display: flex;
   align-items: center;
@@ -339,7 +355,6 @@ main {
 
 .images {
   display: flex;
-  flex-direction: wrap;
   gap: 10px;
 }
 
@@ -566,6 +581,7 @@ main {
   height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5);
+  
 }
 
 
@@ -592,6 +608,14 @@ main {
   color: #000;
 }
 
+
+
+
+
+
+.ice-screamer{
+  filter: hue-rotate(30);
+}
 /*==========================================================MEDIA URL==================================*/
 
 @media (min-width:769px) and (max-width:1024px) {
@@ -676,7 +700,7 @@ main {
 
   .card {
     width: 100%;
-    margin-bottom: 20 px;
+    margin-bottom: 20px;
   }
 
   .estate--empire--h,
@@ -725,11 +749,11 @@ main {
   .p--readmore,
   .button--readmore--families {
     position: static;
-    margin-top: 20 px;
+    margin-top: 20px;
   }
 
   .homeforfamily-main-h1 {
-    font-size: 28-32 px;
+    font-size: 28px;
   }
 
 }
@@ -757,26 +781,26 @@ main {
   }
 
   .content-wrapper {
-    flex-direction: 'column';
-    align-items: 'center';
+    flex-direction: column;
+    align-items: center;
   }
 
   .images {
-    flex-direction: 'column';
-    align-items: 'center';
+    flex-direction: column;
+    align-items: center;
   }
 
   .images img {
-    max-width: '80%';
+    max-width: 80%;
   }
 
   .homeforfamily-main-h1 {
-    font-size: '32-36 px';
+    font-size: 32px;
   }
 
   .additional-images {
-    position: 'static';
-    padding: '10-20 px';
+    position: static;
+    padding: 10px;
   }
 
 }
